@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #a1c3ff;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #6c9ef5;
+    height: 60px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.header {
+    background-color: #427ee6;
+}
+ 
+.header .container{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 1rem;
+}
+
+.container .main{
+    width: 660px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main a:hover {
+    color: #333;
+}
+
+.container img {
+    width: 440px;
+}
+
+.content .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.content .container .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.images img {
+    width: 250px;
+    height: 200px;
+}
+
+.title h1 {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    padding: 30px 0;
+    margin: 30px 0;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote .container p:last-of-type{
+    align-self: flex-end;
+}
+
+.button .container {
+    display: flex;
+    justify-content: center;
+}
+
+.down {
+    width: 70%;
+    margin-bottom: 30px;
+    background-color: #427ee6;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.down .text {
+    flex: 3 3 75%;
+}
+
+.down button {
+    flex: 1 1 25%;
+    height: 30%;
+    width: 75%;
+    background-color: #427ee6;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #fff;
+    align-self: center;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px 0;
+}

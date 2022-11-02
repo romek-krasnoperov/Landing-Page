@@ -68,8 +68,20 @@ img {
     gap: 1rem;
 }
 
+@media (max-width: 750px) {
+    .header .container {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .quote .container {
+        padding: 20px;
+    }
+}
+
 .container .main{
-    width: 660px;
+    flex: 1 1 660px;
     text-align: justify;
     display: flex;
     flex-direction: column;
